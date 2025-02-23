@@ -11,7 +11,7 @@
           "discountedPrice": 59.90,
           "onSale": false,
           "image": {
-              "url": "https://nestorillo.github.io/GameHubApi/assets/images/games/Apex-Legends.png",
+              "url": "GameHubApi/assets/images/games/Apex-Legends.png",
               "alt": "Apex Legends cover"
           },
           "tags": ["shooter", "battle-royale"],
