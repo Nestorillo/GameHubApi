@@ -50,7 +50,7 @@ function loadData(data) {
     const imageContainer = document.createElement('div');
     imageContainer.classList.add('image-container');
     const image = document.createElement('img');
-    image.src = `../${data.image.url}`;
+    image.src = data.image.url;
     image.alt = data.title;
     imageContainer.appendChild(image);
     
