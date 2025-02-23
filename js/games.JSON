@@ -1,0 +1,208 @@
+{
+  "data": [
+      {
+          "id": "1",
+          "title": "APEX LEGENDS",
+          "description": "An action-packed battle royale with unique heroes and team strategy.",
+          "genre": "Shooter",
+          "released": "2019",
+          "ageRating": "13+",
+          "price": 59.90,
+          "discountedPrice": 59.90,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/Apex-Legends.png",
+              "alt": "Apex Legends cover"
+          },
+          "tags": ["shooter", "battle-royale"],
+          "favorite": false
+      },
+      {
+          "id": "2",
+          "title": "F1 24",
+          "description": "Experience the thrill of Formula 1 with realistic graphics and physics.",
+          "genre": "Racing",
+          "released": "2024",
+          "ageRating": "E",
+          "price": 74.90,
+          "discountedPrice": 74.90,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/f1-24.png",
+              "alt": "F1 24 cover"
+          },
+          "tags": ["racing", "sports"],
+          "favorite": true
+      },
+      {
+          "id": "3",
+          "title": "FC 25",
+          "description": "The latest installment of the world's most popular football simulator.",
+          "genre": "Sports",
+          "released": "2025",
+          "ageRating": "E",
+          "price": 69.90,
+          "discountedPrice": 69.90,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/fc-25.png",
+              "alt": "FC 25 cover"
+          },
+          "tags": ["sports", "soccer"],
+          "favorite": false
+      },
+      {
+          "id": "4",
+          "title": "NFS HEAT",
+          "description": "Intense street racing with police chases and car customization.",
+          "genre": "Racing",
+          "released": "2019",
+          "ageRating": "12+",
+          "price": 34.90,
+          "discountedPrice": 34.90,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/nfs-heat.png",
+              "alt": "NFS Heat cover"
+          },
+          "tags": ["racing", "open-world"],
+          "favorite": false
+      },
+      {
+          "id": "5",
+          "title": "D.B. KAKAROT",
+          "description": "Relive the story of Dragon Ball Z in this epic action RPG.",
+          "genre": "RPG",
+          "released": "2020",
+          "ageRating": "12+",
+          "price": 49.90,
+          "discountedPrice": 49.90,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/dragon-ball-kakarot.png",
+              "alt": "Dragon Ball Kakarot cover"
+          },
+          "tags": ["rpg", "anime"],
+          "favorite": true
+      },
+      {
+          "id": "6",
+          "title": "F.F. XVII",
+          "description": "A new installment in the Final Fantasy saga with stunning graphics and dynamic combat.",
+          "genre": "RPG",
+          "released": "2024",
+          "ageRating": "16+",
+          "price": 99.99,
+          "discountedPrice": 99.99,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/final-fantasy-xvi.png",
+              "alt": "Final Fantasy XVII cover"
+          },
+          "tags": ["rpg", "fantasy"],
+          "favorite": false
+      },
+      {
+          "id": "7",
+          "title": "GTA V",
+          "description": "An open world full of crime, action, and adventures in Los Santos.",
+          "genre": "Action",
+          "released": "2013",
+          "ageRating": "18+",
+          "price": 64.99,
+          "discountedPrice": 64.99,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/gta-v.png",
+              "alt": "Grand Theft Auto V cover"
+          },
+          "tags": ["open-world", "action"],
+          "favorite": true
+      },
+      {
+          "id": "8",
+          "title": "ROBLOX",
+          "description": "Explore millions of community-created games in this online world.",
+          "genre": "Sandbox",
+          "released": "2006",
+          "ageRating": "E",
+          "price": 0,
+          "discountedPrice": 0,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/roblox.png",
+              "alt": "Roblox cover"
+          },
+          "tags": ["sandbox", "multiplayer"],
+          "favorite": false
+      },
+      {
+          "id": "9",
+          "title": "ELDEN RING",
+          "description": "An open-world RPG with a vast universe and challenging combat.",
+          "genre": "RPG",
+          "released": "2022",
+          "ageRating": "16+",
+          "price": 64.90,
+          "discountedPrice": 64.90,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/elden-ring.png",
+              "alt": "Elden Ring cover"
+          },
+          "tags": ["rpg", "open-world"],
+          "favorite": true
+      },
+      {
+          "id": "10",
+          "title": "F.F. VII",
+          "description": "The remake of the classic RPG with modernized graphics and new gameplay.",
+          "genre": "RPG",
+          "released": "2020",
+          "ageRating": "16+",
+          "price": 49.90,
+          "discountedPrice": 49.90,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/final-fantasy-vii.png",
+              "alt": "Final Fantasy VII Remake cover"
+          },
+          "tags": ["rpg", "fantasy"],
+          "favorite": false
+      },
+      {
+          "id": "11",
+          "title": "MINECRAFT",
+          "description": "An open-world block game where you can build, explore, and survive.",
+          "genre": "Sandbox",
+          "released": "2011",
+          "ageRating": "7+",
+          "price": 54.90,
+          "discountedPrice": 54.90,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/minecraft.png",
+              "alt": "Minecraft cover"
+          },
+          "tags": ["sandbox", "survival"],
+          "favorite": true
+      },
+      {
+          "id": "12",
+          "title": "THE SIMS 4",
+          "description": "Create and control people in a world full of stories and creativity.",
+          "genre": "Simulation",
+          "released": "2014",
+          "ageRating": "12+",
+          "price": 74.90,
+          "discountedPrice": 74.90,
+          "onSale": false,
+          "image": {
+              "url": "../assets/images/games/sims-4.png",
+              "alt": "The Sims 4 cover"
+          },
+          "tags": ["simulation", "life"],
+          "favorite": false
+      }
+  ]
+}

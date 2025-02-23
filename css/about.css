@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #BDC3C7;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+    background-color: #2F3B52; 
+    border-radius: 10px;
+}
+
+.header-logo img {
+    height: 50px; 
+    margin-left: 130px;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 150px; 
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav a {
+    color: #FFFFFF; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+.header-nav a:hover {
+    color: #FF6B6B; 
+}
+
+.header-cart img {
+    height: 35px; 
+}
+
+.header-cart {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 130px;
+}
+
+.about-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-title {
+    font-size: 2em;
+    margin-top: 60px; 
+    text-align: center;
+    color: #34495E;
+    text-decoration: underline;
+}
+
+.about-description {
+    font-size: 1.4em; 
+    margin-top: 20px; 
+    text-align: center;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    color: #34495E;
+}
+
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.about-image-left {
+    width: 300px; 
+    height: auto;
+    position: relative;
+}
+
+.about-icon-control {
+    width: 150px; 
+    height: auto;
+    position: relative;
+}
+
+.about-icon-smile {
+    width: 150px; 
+    height: auto;
+    position: relative;
+}
+
+.about-image-right {
+    width: 400px; 
+    height: auto;
+    position: relative;
+}
+
+footer {
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 72px;
+    border-top: 4px solid #d3d3d3; 
+    background-color: #2F3B52;
+}
+footer .left-footer {
+    text-align: left;
+}
+
+footer .right-footer {
+    text-align: right;
+}

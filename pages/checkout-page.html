@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page - Game Hub</title>
+    <script src="../js/checkout-page.js" defer></script>
+    <link rel="stylesheet" href="../css/checkout-page.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="../assets/images/icon/icon-game-hub.png" alt="Game Hub Logo">
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="list-of-games.html">List of Games</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-cart">
+            <a href="checkout-page.html" class="cart-link">
+                <img src="../assets/images/icon/icon-cart.png" alt="Cart Icon">
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <div class="cart-container">
+            
+        </div>
+
+        <div class="checkout-container">
+            <h2>Checkout</h2>
+            <div class="checkout-fields-container">
+                <form class="checkout-form">
+                    <input type="text" class="checkout-field" placeholder="Full Name">
+                    <input type="email" class="checkout-field" placeholder="Email Address">
+                    <input type="text" class="checkout-field" placeholder="Shipping Address">
+                    <div class="field-row">
+                        <input type="text" class="checkout-field" placeholder="City">
+                        <input type="text" class="checkout-field" placeholder="Postal Code">
+                    </div>
+                </form>
+            </div>
+            
+            <div class="payment-container">
+                <h2>Payment Information</h2>
+                <form class="payment-form">
+                    <input type="text" class="checkout-field" placeholder="Cardholder Name">
+                    <input type="text" class="checkout-field" placeholder="Card Number">
+                    <div class="field-row">
+                        <input type="text" class="checkout-field" placeholder="Exp. Date (MM/YY)">
+                        <input type="text" class="checkout-field" placeholder="CVV">
+                    </div>
+                    <a href="#" id="checkout-succes" class="add-to-cart-btn button-link">PLACE ORDER!</a>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="left-footer">
+            &copy; 2024 GameHub. All rights reserved.
+        </div>
+        <div class="right-footer">
+            <a href="#">Terms and Conditions</a> | <a href="#">Security Policy</a> | <a href="#">Support</a>
+        </div>
+    </footer>
+</body>
+</html>

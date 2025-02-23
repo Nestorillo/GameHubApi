@@ -1,0 +1,229 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #BDC3C7;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Aumenté el padding para mayor espacio */
+    background-color: #2F3B52; 
+}
+
+.header-logo img {
+    height: 50px; 
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px; /* Reducido para mejorar en pantallas pequeñas */
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav a {
+    color: #FFFFFF; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+.header-nav a:hover {
+    color: #FF6B6B; 
+}
+
+.header-cart img {
+    height: 35px; 
+}
+
+.header-cart {
+    display: flex;
+    align-items: center;
+}
+
+/* Success Container */
+.success-container {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.logo {
+    width: 200px; /* Cambié el tamaño para ser más responsivo */
+}
+
+.thank-you-title {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #2F3B52;
+}
+
+.confirmation-message {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.order-section {
+    display: flex;
+    flex-direction: column; /* Cambié a columna para pantallas pequeñas */
+    align-items: center; 
+    padding-top: 20px; 
+}
+
+.order-details-container {
+    display: flex;
+    flex-direction: column; /* Cambié a columna para pantallas pequeñas */
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 90%; /* Cambié a un ancho relativo */
+    max-width: 600px;
+}
+
+.order-image {
+    width: 100%; /* Cambié a 100% para que sea responsivo */
+    max-width: 150px; /* Establecí un ancho máximo */
+    border-radius: 5px;
+}
+
+.order-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px; /* Añadí espacio entre la imagen y la información */
+}
+
+.order-number, .total-amount {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.order-cart-icon {
+    width: 80px; 
+    margin-top: 10px; /* Añadí espacio arriba de la imagen */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px; /* Añadí espacio superior */
+}
+
+.action-button, .button-link {
+    background-color: #34495E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Cambié a 100% para mayor flexibilidad */
+    max-width: 200px; /* Establecí un ancho máximo */
+    text-align: center;
+}
+
+.action-button:hover, .button-link:hover {
+    background-color: #2c3e50;
+}
+
+/* Footer Styles */
+footer {
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 15px;
+    border-top: 4px solid #d3d3d3; 
+    background-color: #2F3B52;
+}
+
+footer .left-footer {
+    text-align: left;
+}
+
+footer .right-footer {
+    text-align: right;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header-nav ul {
+        flex-direction: column; /* Cambié a columna en pantallas pequeñas */
+        gap: 10px;
+        align-items: center;
+    }
+    .header-cart {
+        margin-right: 0;
+    }
+    .order-section {
+        flex-direction: column; /* Cambié a columna en pantallas pequeñas */
+    }
+}
+
+#orders {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+}
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 250px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.game-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.game-info {
+    text-align: center;
+}
+
+.game-name {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+}
+
+.game-description {
+    font-size: 1rem;
+    color: #777;
+    margin: 8px 0;
+}
+
+.game-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2d6a4f;
+    margin-top: 4px;
+}
